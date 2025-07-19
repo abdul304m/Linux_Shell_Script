@@ -50,17 +50,17 @@ a. running the command "sudo chmod u+x my_first_shell_script.sh" will now add ex
 b. When you run the shell script again , it will be run successfully.
 ![run-scrit](./New-pic8/9.run-script.png).
 
-c. Evaluating to ensure that three folders are created by running this command "mkdir folder1 folder2 folder3"
-![creating-3-folder](./New-pic8/6.creating-3-folder.png).
+c. Evaluating to ensure that three folders are created in your script. we run these command which created the folders in our hme directory;
 
-d. Evaluating and ensuring that three users are created by running this command;
+-mkdir -p ~/shell_dir1
+-mkdir -p ~/shell_dir2
+-mkdir -p ~/shell_dir3
 
-- sudo useradd username1
-- sudo useradd username2
-- sudo useradd username3
-And i used "id" command to verify the users are created.
+![creating-3-fold](./New-pic8/6.creating-3-fold.png).
 
-![creating-user](./New-pic8/7.creating-user.png).
+d. Evaluating and ensuring that three users are created within the script, we run " For loops command and if statement which stand as condition for the script to create the user if it does not exist and the getent passwd command which help the script verify the existance of the user. we used "id" command to confirm if the user is really created by the set of command we instruct the script to do.
+
+![creating-user](./New-pic8/creating-user.png)
 
 
 ## What is Shebang ?
@@ -75,6 +75,8 @@ in this example we meant that the veriable name is Abdul.
 then to retrieve the value of the value stored in a veriable is by echoing it back example ;
 
 echo "the name is : $name" by echoing , you are asking the shell to print out the value of the veriable name.
+
+![veriable](./New-pic8/10.veriable.png)
 
 ## conclusion
 so this is a brief explantion of the term shell and shell scripting,and how you canassigjn value to a veriable and print it out.
