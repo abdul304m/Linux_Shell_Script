@@ -53,16 +53,16 @@ b. When you run the shell script again , it will be run successfully.
 c. Evaluating to ensure that three folders are created in your script. we run these command which created the folders in our home directory;
 ## scripts 1: user and folder creation;
 
- - mkdir -p ~/folder1
- - mkdir -p ~/folder2
- - mkdir -p ~/folder3
+ - mkdir -p ~/Folder1
+ - mkdir -p ~/Folder2
+ - mkdir -p ~/Folder3
 
  and then echoed the folder by giving the command echo.
- ![creating-3-folders](./New-pic8/6creating-3-folder.png).
+ ![creating-3-fold](./New-pic8/12.creating-3-fol.png)
 
-d. Evaluating and ensuring that three users are created within the script, we run " if statement command.
+d. Evaluating and ensuring that three users are created within the script, using sudo command.
 
-![creating-user](./New-pic8/7.creating-3-user.png)
+![user-add](./New-pic8/13.user-add.png)
 
 
 ## What is Shebang ?
